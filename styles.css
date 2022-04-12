@@ -1,4 +1,5 @@
 @import "quiz.css";
+
 body {
     margin: 0px;
     display: flex;
@@ -29,7 +30,14 @@ body {
 .title {
     color: #5AA7EB;
 }
-.play-btn {
+/* .play-btn {
+    padding: 10px 70px;
+    background-color: white;
+    border: 1px solid #5AA7EB;
+    color: #5AA7EB;
+    cursor: pointer;
+} */
+button {
     padding: 10px 70px;
     background-color: white;
     border: 1px solid #5AA7EB;
