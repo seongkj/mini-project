@@ -1,0 +1,67 @@
+
+.first-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+}
+
+.second-box {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.question {
+    margin: 1em 0px;
+    text-align: center;
+}
+.meter {
+    appearance: none;
+    width: 150px;
+    height: 30px;
+    border: solid 2px #5AA7EB;
+    
+}
+progress::-webkit-progress-bar {
+    background-color: #ECF5FF;
+}
+progress::-webkit-progress-value {
+    background-color: #5AA7EB;
+}
+
+.score-box {
+    text-align: center;
+    font-weight: bold;
+}
+.score {
+    color: #5AA7EB;
+    font-size: 30px;
+}
+/* 여기까지 first-box */
+/* 여기부터 second-box */
+.choices >div {
+    border: solid 1px #5AA7EB;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.choice-num {
+    background-color: #5AA7EB;
+    padding: 10px 20px;
+    margin-right: 15px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+/*  */
+p {
+    margin: 0;
+}
